@@ -1,19 +1,19 @@
 # lever
 
 
-- Polygon Mumbai testnet deployment with simple price oracle
+ Polygon Mumbai testnet deployment with simple price oracle
 
-ETH address : 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+- ETH address : 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
 
-DAI address : 0x389B16F0590F3B7261CafBA262dA71b0251800Ec
+- DAI address : 0x389B16F0590F3B7261CafBA262dA71b0251800Ec
 
-BAT address : 0xbb71c8EC5E2BC709f69EDf716ff1A575CA049ac5
+- BAT address : 0xbb71c8EC5E2BC709f69EDf716ff1A575CA049ac5
 
-ZRX address : 0x707300e55f119CE23C32f54372d571be58DC3982
+- ZRX address : 0x707300e55f119CE23C32f54372d571be58DC3982
 
-USDC address : 0xbe753Db0584a03729bB6eD301845201556fB9795
+- USDC address : 0xbe753Db0584a03729bB6eD301845201556fB9795
 
-USDT address : 0x5013088885Fc07EA25BAdFF6aee1Fd158ddDc134
+- USDT address : 0x5013088885Fc07EA25BAdFF6aee1Fd158ddDc134
 
 
 
