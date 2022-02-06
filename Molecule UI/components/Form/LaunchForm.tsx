@@ -17,8 +17,8 @@ import {
   PUBLIC_KEY,
   PRIVATE_KEY,
   contract_address_proxy,
-  web3_provider,
   contract_address_molecule,
+  web3_provider,
   contract_abi_proxy,
   contract_abi_molecule
  } from './config'
