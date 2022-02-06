@@ -1,7 +1,7 @@
 # lever
 
-- Molecule NFT UI - https://0000rrjv9vit97d4n0iclte2jtfm0jgkjabfohi921pvr5kes264j70.siasky.net/
-- NFT tracker -https://testnets.opensea.io/collection/moleculenft
+- Molecule NFT UI - https://vgcvdk0g3nd7qr5in7rdubqak1tidg2627pte7nhm6ltv6n30gpindg.siasky.net/
+- NFT tracker - https://testnets.opensea.io/collection/moleculenft
 
  
 Polygon Mumbai testnet deployment with chainlink price oracle
