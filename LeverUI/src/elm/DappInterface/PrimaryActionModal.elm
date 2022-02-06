@@ -43,7 +43,6 @@ import Strings.Translations as Translations
 import Task
 import Utils.CompAPYHelper exposing (compRate)
 import Utils.SafeLiquidity
-import Debug exposing (log)
 import Strings.Translations exposing (pending)
 
 
@@ -401,7 +400,6 @@ inputActionPane userLanguage maybeConfig maybeEtherUsdPrice primaryActionModalSt
                     , Nothing
                     , Nothing
                     )
-        _ = log "failedRecentTrx" maybeFailedTransaction
         chooseInputView =
             case maybeConfig of
                 Just config ->
@@ -1239,7 +1237,6 @@ faucetAllocateButton config { account, network, userLanguage } chosenAsset =
 getMostRecentAssetPendingTransaction : Config -> PrimaryActionModalState -> Model -> Maybe Transaction
 getMostRecentAssetPendingTransaction config { chosenAsset } { currentTime, network, account, tokenState, transactionState, bnTransactionState } =
     let
-        _ = log "recentTrx7" transactionState.transactions
         pendingRecentTransactions =
             transactionState.transactions
                 |> Eth.Transaction.getPendingTransactionsForAccount network account (Eth.Transaction.getDefaultOldestPendingTrxTime currentTime) (Just bnTransactionState)
@@ -1252,7 +1249,6 @@ getMostRecentAssetPendingTransaction config { chosenAsset } { currentTime, netwo
 
                 _ ->
                     []
-        _ = log "pendingTrx" pendingAssetTransactions
     in
     pendingAssetTransactions
         |> List.head

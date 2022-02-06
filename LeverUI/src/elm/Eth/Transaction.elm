@@ -48,7 +48,6 @@ import Html exposing (Html, a, div, h4, label, li, span, text, ul)
 import Json.Decode exposing (decodeValue, field, succeed)
 import Strings.Translations as Translations
 import Time exposing (Posix)
-import Debug exposing (log) 
 import Hex as HexLib
 
 
@@ -391,7 +390,6 @@ convertBNTransactionToTransaction bnTransaction =
     let
         --TODO: When we convert completely to BNTransaction then we can support the
         --      expanded states from BN in our UI.
-        _ = log "convertTrx" bnTransaction.txHash
         txStatusFromBNTxStatus =
             case bnTransaction.txStatus of
                 BNTransaction.AwaitingSig ->
