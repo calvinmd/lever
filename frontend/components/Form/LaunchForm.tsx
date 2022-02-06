@@ -6,6 +6,7 @@ import {
   Input,
   Select,
   Text,
+  useToast,
 } from '@chakra-ui/react';
 
 type LaunchFormProps = {
@@ -13,6 +14,8 @@ type LaunchFormProps = {
 }; // eslint-disable-line
 
 const LaunchForm: React.FC<LaunchFormProps> = ({ onClose }) => {
+  const toast = useToast();
+
   const [nft, setNft] = useState('');
   const [token, setToken] = useState('');
   const [wallet, setWallet] = useState('');
@@ -20,6 +23,15 @@ const LaunchForm: React.FC<LaunchFormProps> = ({ onClose }) => {
   const handleTokenChange = (e: any) => setToken(e.target.value); // eslint-disable-line
   const handleWalletChange = (e: any) => setWallet(e.target.value); // eslint-disable-line
   const handleNftChange = (e: any) => setNft(e.target.value); // eslint-disable-line
+
+  const handleShowToast = () =>
+    toast({
+      title: 'Account created.',
+      description: "We've created your account for you.",
+      status: 'success',
+      duration: 6000,
+      isClosable: true,
+    });
 
   return (
     <Flex flexDirection="column" width="400px" justifyContent="space-between">
@@ -59,7 +71,7 @@ const LaunchForm: React.FC<LaunchFormProps> = ({ onClose }) => {
       </FormControl>
       <Flex mt="24px">
         <Button
-          onClick={() => null}
+          onClick={handleShowToast}
           bg="#f76540"
           fontSize="lg"
           fontWeight="medium"
