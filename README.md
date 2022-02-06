@@ -3,60 +3,55 @@
 - Molecule NFT UI - https://0000rrjv9vit97d4n0iclte2jtfm0jgkjabfohi921pvr5kes264j70.siasky.net/
 - NFT tracker -https://testnets.opensea.io/collection/moleculenft
 
- Polygon Mumbai testnet deployment with simple price oracle
+ 
+Polygon Mumbai testnet deployment with chainlink price oracle
 
-- ETH address : 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
 
 - DAI address : 0x389B16F0590F3B7261CafBA262dA71b0251800Ec
 
-- BAT address : 0xbb71c8EC5E2BC709f69EDf716ff1A575CA049ac5
-
-- ZRX address : 0x707300e55f119CE23C32f54372d571be58DC3982
+- LINK address : 0x3e1fbb1f08FFCC90AD17872edC37e1E11C97E4D4
 
 - USDC address : 0xbe753Db0584a03729bB6eD301845201556fB9795
 
 - USDT address : 0x5013088885Fc07EA25BAdFF6aee1Fd158ddDc134
 
+- ETH address : 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
 
 
-1. Timelock contract address : 
 
-2. Lever governance token address : 0x908D82Ebfd025096D29bffe487A918A2c8973b9F
+1. Timelock contract address : (Applicable on DAO structure )
 
-3. Unitroller address : 0xE7b565CB9F8032A525131A8100EDa3884aaF3801
+2. Lever governance token address : 0x2cd100d7926e5683a6262383Cd41Cd29C2e6aB26
 
-4. Comptroller address : 0x6f3394F6Fc5a414db571be5BB38B42B96bA29bfF
+3. ChainlinkPriceOracle address : 0x5B026B86772cA13C1F91dfD9E5C7542d241AA6Ad
 
-5. JumpRateModelV2 (for all tokens ) address : 0x3064441e854f3833ECa3e3A7db83B742b735c06A
+4. Unitroller address : 0x20b90e76DDba17B0cC11AAf286C70fc2eE9FEa45
 
-6. VErc20 Delegate (cDAI) address : 0xb7022EB5132b4bE9Aa1d984c9e2653E0358Dec31
+5. Comptroller address : 0xfd34A5B484715E1D6Dd9a22bFBaD8B0D38b50478
 
-7. VErc20 Delegator (cDAI) main address : 0x38A684019D9066f9a4A1611D57E5B40445631a97
+6. JumpRateModelV2 (for all tokens ) address : 0x1f063be0A5a8ec5eDc7c52aDB5e6B0356ef7cA36
 
-8. VErc20 Delegate (cBAT) address : 0x1cbb557633512cB431FB70b0aB9852AadCB43a01
+7. VErc20 Delegate (cDAI) address : 0xa37e077e54b3db7568fe48842d1514d61BcFAEf2
 
-9. VErc20 Delegator (cBAT) main address : 0x38a34b6801DF7591930Bb37e25e4982CcB67D759
+8. VErc20 Delegator (cDAI) main address : 0xf9e4a577ca8b3Fffc1C647d066D24eb49E63CE11
 
-10. VErc20 Delegate (cZRX) address : 0xe573dcdff6777577786118436340Ca0502166236
+9. VErc20 Delegate (cLINK) address : 0x89713dD7a36907eE897639B6CAF2A618C8D0fcAC
 
-11. VErc20 Delegator (cZRX) main address : 0x90735C9ae895540882c984dd22d70c97Cae16F93
+10. VErc20 Delegator (cLINK) main address : 0x7b02346AC08C92e47AA1744F5df89a778FA688DA
 
-12. VErc20 Delegate (cUSDC) address : 0xb16c0E8c1C9386740A7f3bc39de7271E29a9374B
+11. VErc20 Delegate (cUSDC) address : 0x122eAa1AaEFf1933D3057D0CF4B7E59B4Bf035f2
 
-13. VErc20 Delegator (cUSDC) main address : 0xBd0AC7C4F98647af85D0e13a79174FE75f89e426
+12. VErc20 Delegator (cUSDC) main address : 0x28c999266BEfea2500e3A894A7fC83A7e7044C81
 
-14. VErc20 Delegate (cUSDT) address : 0xD5E29D2EC73055218E2DB04CCe6145f0D80eeCe8
+11. VErc20 Delegate (cUSDT) address : 0x650047783AF7fbE2a9DC719C5b5485404Fd69305
 
-15. VErc20 Delegator (cUSDT) main address : 0x96a33fC3282063926251e3e545143a418EdfE7f2
+12. VErc20 Delegator (cUSDT) main address : 0x33865f9acb792C05A4fe18c149f79aDE5b120a08
 
-16. SimplePriceOracle address : 0x74D9BAEce5fD849dcFb6167705FABe6d1ed429bF
+15. LeverLens address : 0x27089FddD4c643DD29A3bF6A8D6C89C74021C711
 
-17. LeverLens address : 0x08C6A6cBec5c5768beC4ca4B80d415bF017E5234
+16. cETH address : 0xa6861828FF2d8b8fe68Fe6c220e8ce81Ae4f165E
 
-18. cETH address : 0x3EA0a655568b24dD4aB343E3C2cA7f9218a7c62c
+17. Molecule NFT address : 0x4A2D0c25AC79312136DfBC9Dabc58027416b6384
 
-19. Molecule NFT address : 0x5Ee45C0ae29F8f007e8765F84d7cfF839eA44f2B
-
-20. Molecule Proxy address : 0x86aDF0Ad4D2088094C32Fc6c38262AFB7D1d5f43
-
+18. Molecule Proxy address : 0x98f65CA2c8618dF68647576b19f7C92A63b948Ba
 
