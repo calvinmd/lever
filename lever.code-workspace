@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "contracts",
+      "path": "Contracts"
+    },
+    {
+      "name": "frontend",
+      "path": "frontend"
+    }
+  ]
+}
