@@ -1,10 +1,10 @@
 
 module.exports = {
-    PUBLIC_KEY:"0x154f5B721AB76fCc3c2068Cf9178EC9e5E184523",
-    PRIVATE_KEY:"7fc9a56110dd28dc556f99b18b03597b73cf326ed844c4f2ba34b3fab762c25f",
+    PUBLIC_KEY:YOUR PUBLIC KEY,
+    PRIVATE_KEY:YOUR PRIVATE KEY,
     contract_address_proxy:"0x98f65CA2c8618dF68647576b19f7C92A63b948Ba",
-    web3_provider:"wss://polygon-mumbai.g.alchemy.com/v2/j7lx-kBOpugSoBwQ02lFdBV1hCYkEKN7",
     contract_address_molecule:"0x4A2D0c25AC79312136DfBC9Dabc58027416b6384",
+    web3_provider:MUMBAI RPC OR INFURA/ALCHEMY URL FOR MUMBAI TESTNET ,
     contract_abi_proxy:[
         {
           "inputs": [],
