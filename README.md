@@ -1,5 +1,8 @@
 # lever
 
+- Molecule NFT UI - https://0005cr6hhe3ujtp09cj5e4qsjp4n2vk4gsl30rg1j5tg46ssfl9g5lo.siasky.net/
+- NFT tracker - https://testnets.opensea.io/collection/molecule-v2 
+
 
  Polygon Mumbai testnet deployment with simple price oracle
 
