@@ -587,7 +587,7 @@ module.exports = {
             "type": "function"
         }
     ],
- contract_address_molecule:"0x5Ee45C0ae29F8f007e8765F84d7cfF839eA44f2B",
+ contract_address_molecule:"0x4A2D0c25AC79312136DfBC9Dabc58027416b6384",
 contract_abi_proxy:[
 	{
 		"inputs": [],
@@ -653,7 +653,7 @@ contract_abi_proxy:[
 		"type": "function"
 	}
 ],
-contract_address_proxy:"0x86aDF0Ad4D2088094C32Fc6c38262AFB7D1d5f43",
+contract_address_proxy:"0x98f65CA2c8618dF68647576b19f7C92A63b948Ba",
 web3_provider:"wss://polygon-mumbai.g.alchemy.com/v2/j7lx-kBOpugSoBwQ02lFdBV1hCYkEKN7"
 
 
