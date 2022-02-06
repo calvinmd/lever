@@ -33,9 +33,9 @@ Chainlink address used in polygon mumbai testnet
 
 - USDC/USD chainlink aggregator address : 0x572dDec9087154dC5dfBB1546Bb62713147e0Ab0
 
-- USDT/USD chainlink aggregator address (8 decimal) : 0x92C09849638959196E976289418e5973CC96d645
+- USDT/USD chainlink aggregator address : 0x92C09849638959196E976289418e5973CC96d645
 
-- LINK/MATIC chainlink aggregator address (18 decimal) : 0x12162c3E810393dEC01362aBf156D7ecf6159528
+- LINK/MATIC chainlink aggregator address : 0x12162c3E810393dEC01362aBf156D7ecf6159528
 
  
 
